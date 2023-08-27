@@ -13,11 +13,13 @@ git checkout myFeature
 git add .
 git commit -m "modification"
 git remote add origin git@github.com:vishnuiot/testfolder
-git pull origin myFeature
+
+# git pull origin myFeature
 git push origin myFeature
 # #merge changes without fastforward
-# git checkout dev
-# git merge --no-ff myFeature
+# delete a file locally and update the branch
+git push --force -u origin myFeature
+
 
 # #now push changes to server
 # git push origin main
