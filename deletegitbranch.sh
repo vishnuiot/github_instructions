@@ -1,3 +1,5 @@
+# Delete local branch
+git branch -D myFeature2
 git push origin --delete <branch>
 git branch --delete myFeature2
 #step 1 : change to main/master branch
