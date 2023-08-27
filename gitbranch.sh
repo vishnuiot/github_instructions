@@ -12,6 +12,7 @@ git checkout myFeature
 # Add new files to the branch locally for upload to github
 git add .
 git commit -m "modification"
+git remote add origin git@github.com:vishnuiot/testfolder
 # #merge changes without fastforward
 # git checkout dev
 # git merge --no-ff myFeature
