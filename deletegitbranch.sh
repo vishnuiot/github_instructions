@@ -1,3 +1,5 @@
+# Step 1 : list local branch
+git branch -a
 # Delete local branch
 git branch -D myFeature2
 git push origin --delete <branch>
