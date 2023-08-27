@@ -13,6 +13,8 @@ git checkout myFeature
 git add .
 git commit -m "modification"
 git remote add origin git@github.com:vishnuiot/testfolder
+git pull origin myFeature
+git push origin myFeature
 # #merge changes without fastforward
 # git checkout dev
 # git merge --no-ff myFeature
