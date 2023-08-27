@@ -12,7 +12,7 @@ git checkout myFeature
 #step 4 : Add new files after new files are added to the localfolder for upload into github
 git add .
 git commit -m "modification"
-git remote add origin git@github.com:vishnuiot/testfolder
+git remote add origin git@github.com:vishnuiot/github_instructions
 
 #step 5: Perform this step to import contents from remotebranch to local branch
 # git pull origin myFeature
