@@ -17,13 +17,11 @@ git remote add origin git@github.com:vishnuiot/testfolder
 #step 5: Perform this step to import contents from remotebranch to local branch
 # git pull origin myFeature
 
-#step 6: Push code into remote branch 
+#step 6: Push code into remoteserver-branch 
 git push origin myFeature
 
-# delete a file locally and update the branch
+# delete a file locally and update the remoteserver-branch
 git push --force -u origin myFeature
 
 
-# #now push changes to server
-# git push origin main
-# git push origin myFeature
+
