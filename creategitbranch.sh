@@ -9,14 +9,17 @@ git checkout -b myFeature main
 #step 3 : switch to created branch
 git checkout myFeature
 
-# Add new files to the branch locally for upload to github
+#step 4 : Add new files after new files are added to the localfolder for upload into github
 git add .
 git commit -m "modification"
 git remote add origin git@github.com:vishnuiot/testfolder
 
+#step 5: Perform this step to import contents from remotebranch to local branch
 # git pull origin myFeature
+
+#step 6: Push code into remote branch 
 git push origin myFeature
-# #merge changes without fastforward
+
 # delete a file locally and update the branch
 git push --force -u origin myFeature
 
